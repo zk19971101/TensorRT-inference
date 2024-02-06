@@ -15,6 +15,13 @@ using namespace std;
 
 size_t dataTypeToSize(DataType dataType);
 
+//https://nvidia.github.io/cuda-python/index.html
+// python api https://docs.nvidia.com/deeplearning/tensorrt/api/python_api/index.html
+//c++ api https://docs.nvidia.com/deeplearning/tensorrt/api/c_api/index.html
+// inference guide https://docs.nvidia.com/deeplearning/tensorrt/developer-guide/index.html#perform-inference
+// b站教程 https://www.bilibili.com/video/BV1jj411Z7wG/?spm_id_from=333.788&vd_source=09fe002f4af7322f5d60a34aa3932a2f
+//https://github.com/NVIDIA/TensorRT/tree/release/8.6
+// cookbook https://github.com/NVIDIA/trt-samples-for-hackathon-cn/tree/master
 
 class Logger : public ILogger
 {
